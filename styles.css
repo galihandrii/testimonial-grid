@@ -1,0 +1,114 @@
+/* Element */
+body {
+  margin: 0;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  background-color: hsl(210, 46%, 95%);
+}
+
+img {
+  float: left;
+  margin-top: 12.5px;
+  margin-right: 15px;
+  border-radius: 50%;
+}
+
+p {
+  line-height: 1.5;
+}
+
+.p-1 {
+  margin-top: -15px;
+  color:hsl(0, 0%, 81%);
+}
+
+/* CONTAINER */
+.main-container {
+  display: grid;
+  grid-gap: 20px;
+  margin: auto;
+  margin-top: 150px;
+  width: 1500px;
+}
+
+.daniel-container {
+  background-image: url(images/bg-pattern-quotation.svg);
+  background-repeat: no-repeat;
+  background-position: top ;
+  background-color:  hsl(263, 55%, 52%);
+  grid-row: 1/2;
+  grid-column: 1/3;
+  padding: 10px 20px;
+  box-shadow: 3px 3px 7px grey;
+  border-radius: 10px;
+}
+
+.jonathan-container{
+  background-color: hsl(217, 19%, 35%);
+  grid-row: 1/2;
+  grid-column: 3/4;
+  padding: 10px 20px;
+  box-shadow: 3px 3px 7px grey;
+  border-radius: 10px;
+}
+
+.jeanette-container {
+  background-color: hsl(0, 0%, 100%);
+  grid-row: 2/3;
+  grid-column: 1/2;
+  padding: 10px 20px;
+  box-shadow: 3px 3px 7px grey;
+  border-radius: 10px;
+
+}
+
+.patrick-container {
+  background-color: hsl(219, 29%, 14%);
+  grid-column: 2/4;
+  grid-row: 2/3;
+  padding: 10px 20px;
+  box-shadow: 5px 7px 10px grey;
+  border-radius: 10px;
+}
+
+.kira-container{
+  background-color: hsl(0, 0%, 100%);
+  width: 290px;
+  grid-row: 1/3;
+  grid-column: 4/5;
+  padding: 10px 20px;
+  box-shadow: 3px 3px 7px grey;
+  border-radius: 10px;
+}
+.testimoni{
+  color:hsl(0, 0%, 100%);
+}
+.testimoni-2{
+  color:hsl(0, 0%, 81%);
+}
+.testimoni-3{
+  color:hsl(217, 19%, 35%);
+}
+.attribution{
+  padding-top: 200px;
+}
+.daniel-container:hover{
+  transition: 0.4s;
+  box-shadow: 10px 12px 15px black;
+}
+.patrick-container:hover{
+  transition: 0.4s;
+  box-shadow: 10px 12px 15px black;
+}
+.jeanette-container:hover{
+  transition: 0.4s;
+  box-shadow: 10px 12px 15px black;
+}
+.jonathan-container:hover{
+  transition: 0.4s;
+  box-shadow: 10px 12px 15px black;
+}
+.kira-container:hover{
+  transition: 0.4s;
+  box-shadow: 10px 12px 15px black;
+
+}
